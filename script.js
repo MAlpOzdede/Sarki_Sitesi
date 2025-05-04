@@ -82,6 +82,12 @@ const songs = [
       artist: "JoJo's Bizarre Adventure: Golden Wind",
       src: "sarkilar/il vento doro.mp3",
       cover: "kapaklar/indir (13).jpg"
+    },
+    {
+      title: "Queen - Another One Bites the Dust (Official Video)",
+      artist: "Queen",
+      src: "sarkilar/Queen - Another One Bites the Dust (Official Video).mp3",
+      cover: "kapaklar/Bites_the_Dust_Infobox_Manga.png"
     }
   ];
     // Diğer şarkıları da aynı şekilde ekle
@@ -187,3 +193,4 @@ const speedSelect = document.getElementById("speed");
 speedSelect.addEventListener("change", () => {
   audio.playbackRate = parseFloat(speedSelect.value);
 });
+
