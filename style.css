@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1db954, #191414);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .container {
+    display: flex;
+    gap: 30px;
+    max-width: 1000px;
+  }
+  
+  .player {
+    width: 300px;
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .player img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .controls button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #1db954;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .progress-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+  }
+  
+  #progress {
+    flex-grow: 1;
+  }
+  
+  .playlist {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    overflow-y: auto;
+    max-height: 600px;
+  }
+  
+  .playlist-item {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+  }
+  
+  .playlist-item:hover {
+    background-color: #1db954;
+    color: #000;
+  }
+  .extra-controls {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .extra-controls label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #ccc;
+  }
+  
