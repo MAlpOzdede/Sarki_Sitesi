@@ -193,4 +193,36 @@ const speedSelect = document.getElementById("speed");
 speedSelect.addEventListener("change", () => {
   audio.playbackRate = parseFloat(speedSelect.value);
 });
+const searchInput = document.getElementById("search");
+const searchResults = document.getElementById("search-results");
+
+searchInput.addEventListener("input", () => {
+  const searchTerm = searchInput.value.toLowerCase();
+  searchResults.innerHTML = "";
+  
+  if (searchTerm.trim() === "") {
+    searchResults.style.display = "none";
+    return;
+  }
+
+  const filteredSongs = songs.filter(song => 
+    song.title.toLowerCase().includes(searchTerm) ||
+    song.artist.toLowerCase().includes(searchTerm)
+  );
+
+  filteredSongs.forEach((song, index) => {
+    const item = document.createElement("div");
+    item.className = "search-item";
+    item.textContent = `${song.artist} - ${song.title}`;
+    item.addEventListener("click", () => {
+      current = songs.indexOf(song);
+      loadSong(current);
+      playSong();
+      searchResults.style.display = "none";
+    });
+    searchResults.appendChild(item);
+  });
+
+  searchResults.style.display = filteredSongs.length ? "block" : "none";
+});
 
