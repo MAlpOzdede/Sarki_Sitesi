@@ -88,7 +88,39 @@ const songs = [
       artist: "Queen",
       src: "sarkilar/Queen - Another One Bites the Dust (Official Video).mp3",
       cover: "kapaklar/Bites_the_Dust_Infobox_Manga.png"
+    },
+    {
+      title: "Feyzulah",
+      artist: "Feyzulah",
+      src: "Feyzulah.mp3",
+      cover: "kapaklar/indir (14).jpg"
+    },
+    {
+      title: "JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険】",
+      artist: "JoJo's Bizarre Adventure OST",
+      src: "JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険】.mp3",
+      cover: "kapaklar/images.jpg"
+    },
+    {
+      title: "Army Of Lovers - Crucified",
+      artist: "Army Of Lovers",
+      src: "Army Of Lovers - Crucified.mp3",
+      cover: "kapaklar/main-qimg-23e73ec9ad270cf1a6ed0a0d78d81f66-lq.jpg"
+    },
+    {
+      title: "Lady Gaga - Judas (Lyrics)",
+      artist: "Lady Gaga",
+      src: "Lady Gaga - Judas (Lyrics).mp3",
+      cover: "kapaklar/indir (15).jpg"
+    },
+    {
+      title: "Miku (Lyrics Video)",
+      artist: "Miku",
+      src: "Miku by Anamanaguchi (Lyrics Video).mp3",
+      cover: "kapaklar/indir (16).jpg"
     }
+    
+
   ];
     // Diğer şarkıları da aynı şekilde ekle
   
