@@ -98,7 +98,7 @@ const songs = [
     {
       title: "JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険】",
       artist: "JoJo's Bizarre Adventure OST",
-      src: "sarkilar/JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険.mp3",
+      src: "sarkilar/JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険】.mp3",
       cover: "kapaklar/images.jpg"
     },
     {
