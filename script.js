@@ -118,6 +118,42 @@ const songs = [
       artist: "Miku",
       src: "sarkilar/Miku by Anamanaguchi (Lyrics Video).mp3",
       cover: "kapaklar/indir (15).jpg"
+    },
+    {
+      title: "Ben Fero - 3 2 1 [Official Video]",
+      artist: "Ben Fero",
+      src: "sarkilar/Ben Fero - 3 2 1 [Official Video].mp3",
+      cover: "kapaklar/indir (17).jpg"
+    },
+    {
+      title: "TARKAN - Şımarık",
+      artist: "TARKAN",
+      src: "sarkilar/TARKAN - Şımarık.mp3",
+      cover: "kapaklar/indir (20).jpg"
+    },
+    {
+      title: "Müslüm Gürses - Seni Yazdım Kalbime",
+      artist: "Müslüm Gürses",
+      src: "sarkilar/Müslüm Gürses - Seni Yazdım.mp3",
+      cover: "kapaklar/maxresdefault.jpg"
+    },
+    {
+      title: "Ferdi Tayfur - İçim Yanar",
+      artist: "Ferdi Tayfur",
+      src: "sarkilar/Ferdi Tayfur - İçim Yanar.mp3",
+      cover: "kapaklar/indir (18).jpg"
+    },
+    {
+      title: "Ferdi Özbeğen - Gündüzüm Seninle",
+      artist: "Ferdi Özbeğen",
+      src: "sarkilar/Ferdi Özbeğen - Gündüzüm Seninle.mp3",
+      cover: "kapaklar/indir (21).jpg"
+    },
+    {
+      title: "Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg",
+      artist: "Katy Perry -ft. Snoop Dogg",
+      src: "sarkilar/Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg.mp3",
+      cover: "kapaklar/indir (19).jpg"
     }
   ];
     // Diğer şarkıları da aynı şekilde ekle
