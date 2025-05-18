@@ -1,209 +1,4 @@
-const songs = [
-    {
-      title: "The Wonder Of You",
-      artist: "Elvis Presley",
-      src: "sarkilar/Elvis Presley - The Wonder of You (Official Audio).mp3",
-      cover: "kapaklar/indir (1).jpg"
-    },
-    {
-      title: "Soft and Wet",
-      artist: "Prince",
-      src: "sarkilar/Prince - Soft & Wetto ! (JJBA version+ Lyrics).mp3",
-      cover: "kapaklar/indir.jpg"
-    },
-    {
-      title: "Killer Queen (Top Of The Pops, 1974)",
-      artist: "Queen",
-      src: "sarkilar/Queen - Killer Queen (Top Of The Pops, 1974).mp3",
-      cover: "kapaklar/indir (2).jpg"
-    },
-    {
-      title: "Canzoni Preferite",
-      artist: "Bilinmiyor",
-      src: "sarkilar/canzoni preferite.mp3",
-      cover: "kapaklar/indir (3).jpg"
-    },
-    {
-      title: "SONO CHINO SADAME",
-      artist: "JOJO",
-      src: "sarkilar/JOJO SONO CHINO SADAME.mp3",
-      cover: "kapaklar/indir (4).jpg"
-    },
-    {
-      title: "Great Days (Opening 7 - 4K Creditless HD)",
-      artist: "JoJo's Bizarre Adventure",
-      src: "sarkilar/JoJos Bizarre Adventure  Opening 7 - Great Days  4K Creditless HD.mp3",
-      cover: "kapaklar/indir (6).jpg"
-    },
-    {
-      title: "Diamond is Unbreakable - Opening 1 (Creditless)",
-      artist: "JoJo's Bizarre Adventure",
-      src: "sarkilar/Jojos Bizarre Adventure Diamond is Unbreakable - Opening 1 (Creditless)  [HD].mp3",
-      cover: "kapaklar/indir (5).jpg"
-    },
-    {
-      title: "OP 2 UHD 2160p Creditless",
-      artist: "JoJo's Bizarre Adventure",
-      src: "sarkilar/Jojos Bizarre Adventure OP 2  UHD 2160p  Creditless.mp3",
-      cover: "kapaklar/indir (7).jpg"
-    },
-    {
-      title: "STAND PROUD (Opening 3)",
-      artist: "JoJo's Bizarre Adventure",
-      src: "sarkilar/JoJos Bizarre Adventure Opening 3 STAND PROUD.mp3",
-      cover: "kapaklar/indir (8).jpg"
-    },
-    {
-      title: "Pillar Men Theme『Awaken』",
-      artist: "JoJo's Bizarre Adventure OST",
-      src: "sarkilar/JoJos Bizarre Adventure OST - Pillar Men Theme『Awaken』.mp3",
-      cover: "kapaklar/indir (9).jpg"
-    },
-    {
-      title: "Beat It (Official 4K Video)",
-      artist: "Michael Jackson",
-      src: "sarkilar/Michael Jackson - Beat It (Official 4K Video).mp3",
-      cover: "kapaklar/indir (11).jpg"
-    },
-    {
-      title: "Billie Jean (Official Video)",
-      artist: "Michael Jackson",
-      src: "sarkilar/Michael Jackson - Billie Jean (Official Video).mp3",
-      cover: "kapaklar/indir (10).jpg"
-    },
-    {
-      title: "Smooth Criminal (Official Video)",
-      artist: "Michael Jackson",
-      src: "sarkilar/Michael Jackson - Smooth Criminal (Official Video).mp3",
-      cover: "kapaklar/indir (12).jpg"
-    },
-    {
-      title: "il vento d’oro",
-      artist: "JoJo's Bizarre Adventure: Golden Wind",
-      src: "sarkilar/il vento doro.mp3",
-      cover: "kapaklar/indir (13).jpg"
-    },
-    {
-      title: "Queen - Another One Bites the Dust (Official Video)",
-      artist: "Queen",
-      src: "sarkilar/Queen - Another One Bites The Dust [Lyrics].mp3",
-      cover: "kapaklar/Bites_the_Dust_Infobox_Manga.png"
-    },
-    {
-      title: "Feyzulah",
-      artist: "Feyzulah",
-      src: "sarkilar/Feyzulah.mp3",
-      cover: "kapaklar/indir (14).jpg"
-    },
-    {
-      title: "JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険】",
-      artist: "JoJo's Bizarre Adventure OST",
-      src: "sarkilar/JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険】.mp3",
-      cover: "kapaklar/images.jpg"
-    },
-    {
-      title: "Army Of Lovers - Crucified",
-      artist: "Army Of Lovers",
-      src: "sarkilar/Army Of Lovers - Crucified.mp3",
-      cover: "kapaklar/main-qimg-23e73ec9ad270cf1a6ed0a0d78d81f66-lq.jpg"
-    },
-    {
-      title: "Lady Gaga - Judas (Lyrics)",
-      artist: "Lady Gaga",
-      src: "sarkilar/Lady Gaga - Judas (Lyrics).mp3",
-      cover: "kapaklar/indir (16).jpg"
-    },
-    {
-      title: "Miku (Lyrics Video)",
-      artist: "Miku",
-      src: "sarkilar/Miku by Anamanaguchi (Lyrics Video).mp3",
-      cover: "kapaklar/indir (15).jpg"
-    },
-    {
-      title: "Ben Fero - 3 2 1 [Official Video]",
-      artist: "Ben Fero",
-      src: "sarkilar/Ben Fero - 3 2 1 [Official Video].mp3",
-      cover: "kapaklar/indir (17).jpg"
-    },
-    {
-      title: "TARKAN - Şımarık",
-      artist: "TARKAN",
-      src: "sarkilar/Tarkan - Şımarık (Audio).mp3",
-      cover: "kapaklar/indir (20).jpg"
-    },
-    {
-      title: "Müslüm Gürses - Seni Yazdım Kalbime",
-      artist: "Müslüm Gürses",
-      src: "sarkilar/Müslüm Gürses - Seni Yazdım.mp3",
-      cover: "kapaklar/maxresdefault.jpg"
-    },
-    {
-      title: "Ferdi Tayfur - İçim Yanar",
-      artist: "Ferdi Tayfur",
-      src: "sarkilar/Ferdi Tayfur - İçim Yanar.mp3",
-      cover: "kapaklar/indir (18).jpg"
-    },
-    {
-      title: "Ferdi Özbeğen - Gündüzüm Seninle",
-      artist: "Ferdi Özbeğen",
-      src: "sarkilar/Ferdi Özbeğen - Gündüzüm Seninle.mp3",
-      cover: "kapaklar/indir (21).jpg"
-    },
-    {
-      title: "Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg",
-      artist: "Katy Perry -ft. Snoop Dogg",
-      src: "sarkilar/Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg.mp3",
-      cover: "kapaklar/indir (19).jpg"
-    }
-  ];
-    // Diğer şarkıları da aynı şekilde ekle
-  const lyricsButton = document.getElementById("lyrics-button");
-const lyricsDiv = document.getElementById("lyrics");
-let lyricsVisible = false;
-const originalLyricsHeight = lyricsDiv.offsetHeight; // Başlangıç yüksekliğini sakla
-
-lyricsButton.addEventListener("click", () => {
-    lyricsVisible = !lyricsVisible;
-
-    if (lyricsVisible) {
-        // Sözleri görünür yap ve yüksekliği içeriğe göre ayarla
-        lyricsDiv.style.display = "block";
-        lyricsDiv.style.height = "auto"; // İçeriğe göre otomatik yükseklik
-        lyricsButton.textContent = "Close Lyrics";
-    } else {
-        // Sözleri gizle ve başlangıç yüksekliğine geri dön
-        lyricsDiv.style.display = "none";
-        lyricsDiv.style.height = originalLyricsHeight + "px"; // Başlangıç yüksekliğine dön
-        lyricsButton.textContent = "Open Lyrics";
-    }
-});
-
-function loadSong(index) {
-    const song = songs[index];
-    title.textContent = song.title;
-    artist.textContent = song.artist;
-    cover.src = song.cover;
-    audio.src = song.src;
-    progress.value = 0;
-    currentTime.textContent = "0:00";
-    if (audio.readyState >= 2) {
-        progress.max = audio.duration;
-        duration.textContent = formatTime(audio.duration);
-    } else {
-        audio.addEventListener('loadedmetadata', () => {
-            progress.max = audio.duration;
-            duration.textContent = formatTime(audio.duration);
-        }, { once: true });
-    }
-    playBtn.textContent = "▶️";
-
-    // Şarkı sözlerini yükle ve başlangıçta gizle
-    lyricsDiv.textContent = lyrics[song.title] || "";
-    lyricsDiv.style.display = "none";
-    lyricsDiv.style.height = originalLyricsHeight + "px"; // Başlangıç yüksekliğini ayarla
-    lyricsButton.textContent = "Open Lyrics";
-}
-  let current = 0;
+ let current = 0;
   const audio = document.getElementById("audio");
   const title = document.getElementById("title");
   const artist = document.getElementById("artist");
@@ -217,129 +12,16 @@ function loadSong(index) {
   const currentTime = document.getElementById("current-time");
   const duration = document.getElementById("duration");
   const playlist = document.getElementById("playlist");
-  
-  function loadSong(index) {
-    const song = songs[index];
-    title.textContent = song.title;
-    artist.textContent = song.artist;
-    cover.src = song.cover;
-    audio.src = song.src;
-    playBtn.textContent = "▶️";
-  }
-  
-  function playSong() {
-    audio.play();
-    playBtn.textContent = "⏸";
-  }
-  
-  function pauseSong() {
-    audio.pause();
-    playBtn.textContent = "▶️";
-  }
-  
-  playBtn.addEventListener("click", () => {
-    if (audio.paused) playSong();
-    else pauseSong();
-  });
-  
-  nextBtn.addEventListener("click", () => {
-    current = (current + 1) % songs.length;
-    loadSong(current);
-    playSong();
-  });
-  
-  prevBtn.addEventListener("click", () => {
-    current = (current - 1 + songs.length) % songs.length;
-    loadSong(current);
-    playSong();
-  });
-  
-  forward5.addEventListener("click", () => (audio.currentTime += 5));
-  back5.addEventListener("click", () => (audio.currentTime -= 5));
-  
-  audio.addEventListener("timeupdate", () => {
-    progress.value = audio.currentTime;
-    currentTime.textContent = formatTime(audio.currentTime);
-  });
-  
-  audio.addEventListener("loadedmetadata", () => {
-    progress.max = audio.duration;
-    duration.textContent = formatTime(audio.duration);
-  });
-  
-  progress.addEventListener("input", () => {
-    audio.currentTime = progress.value;
-  });
-  
-  function formatTime(sec) {
-    const minutes = Math.floor(sec / 60);
-    const seconds = Math.floor(sec % 60);
-    return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
-  }
-  
-  // Playlist Oluştur
-  songs.forEach((song, index) => {
-    const item = document.createElement("div");
-    item.className = "playlist-item";
-    item.textContent = `${song.artist} - ${song.title}`;
-    item.addEventListener("click", () => {
-      current = index;
-      loadSong(current);
-      playSong();
-    });
-    playlist.appendChild(item);
-  });
-  
-  // İlk şarkı yüklensin
-  loadSong(current);
-  
-  // Ses Kontrolü
-const volumeSlider = document.getElementById("volume");
-volumeSlider.addEventListener("input", () => {
-  audio.volume = volumeSlider.value;
-});
+  const lyricsButton = document.getElementById("lyrics-button");
 
-// Hız Kontrolü
-const speedSelect = document.getElementById("speed");
-speedSelect.addEventListener("change", () => {
-  audio.playbackRate = parseFloat(speedSelect.value);
-});
-const searchInput = document.getElementById("search");
-const searchResults = document.getElementById("search-results");
-
-searchInput.addEventListener("input", () => {
-  const searchTerm = searchInput.value.toLowerCase();
-  searchResults.innerHTML = "";
-  
-  if (searchTerm.trim() === "") {
-    searchResults.style.display = "none";
-    return;
-  }
-
-  const filteredSongs = songs.filter(song => 
-    song.title.toLowerCase().includes(searchTerm) ||
-    song.artist.toLowerCase().includes(searchTerm)
-  );
-
-  filteredSongs.forEach((song, index) => {
-    const item = document.createElement("div");
-    item.className = "search-item";
-    item.textContent = `${song.artist} - ${song.title}`;
-    item.addEventListener("click", () => {
-      current = songs.indexOf(song);
-      loadSong(current);
-      playSong();
-      searchResults.style.display = "none";
-    });
-    searchResults.appendChild(item);
-  });
-
-  searchResults.style.display = filteredSongs.length ? "block" : "none";
-});
-
-// Şarkı sözlerini tutacak bir obje (örnek şarkı sözleri ekleyebilirsiniz)
-const lyrics = {
-    "The Wonder Of You": `When no one else can understand me
+  // Şarkıların listesi
+const songs = [
+    {
+      title: "The Wonder Of You",
+      artist: "Elvis Presley",
+      src: "sarkilar/Elvis Presley - The Wonder of You (Official Audio).mp3",
+      cover: "kapaklar/indir (1).jpg",
+      lyrics: `When no one else can understand me
 When everything I do is wrong
 You give me love and understanding
 All my life, you stood by me
@@ -353,9 +35,14 @@ Oh, the wonder of you, the wonder of you
 And when no one else can understand me
 Oh, the wonder of you, the wonder of you
 More than ever, I love you more than ever
-And I'll be with you more than ever`,
-
-    "Soft and Wet": `Hey, lover, I got a sugarcane
+And I'll be with you more than ever`
+    },
+    {
+      title: "Soft and Wet",
+      artist: "Prince",
+      src: "sarkilar/Prince - Soft & Wetto ! (JJBA version+ Lyrics).mp3",
+      cover: "kapaklar/indir.jpg",
+      lyrics:`Hey, lover, I got a sugarcane
 That I want to lose in you
 Baby, can you stand the pain?
 Hey, lover, sugar don't you see?
@@ -390,9 +77,14 @@ Crazy about your love
 Soft and wet (you know)
 You are soft and wet (oh, sugar)
 Your love is soft and wet
-Soft and wet`,
-
-    "Killer Queen (Top Of The Pops, 1974)": `She keeps her Moët et Chandon
+Soft and wet`
+    },
+    {
+      title: "Killer Queen (Top Of The Pops, 1974)",
+      artist: "Queen",
+      src: "sarkilar/Queen - Killer Queen (Top Of The Pops, 1974).mp3",
+      cover: "kapaklar/indir (2).jpg",
+      lyrics:`She keeps her Moët et Chandon
 In her pretty cabinet
 "Let them eat cake, " she says
 Just like Marie Antoinette
@@ -441,9 +133,14 @@ Anytime
 Recommended at the price
 Insatiable an appetite
 Wanna try?
-You wanna try`,
-
-    "Canzoni Preferite": `Vocal percussion on a whole 'nother level
+You wanna try`
+    },
+    {
+      title: "Canzoni Preferite",
+      artist: "Bilinmiyor",
+      src: "sarkilar/canzoni preferite.mp3",
+      cover: "kapaklar/indir (3).jpg",
+      lyrics:`Vocal percussion on a whole 'nother level
 Coming from my mind
 Vocal percussion on a whole 'nother level
 Coming from my mind
@@ -485,9 +182,14 @@ Vocal percussion on a whole 'nother level
 Coming from my mind
 Vocal percussion on a whole 'nother level
 Coming from my mind
-It's like a burning sunrise`,
-
-"SONO CHINO SADAME": `(JoJo! JoJo! JoJo!)
+It's like a burning sunrise`
+    },
+    {
+      title: "SONO CHINO SADAME",
+      artist: "JOJO",
+      src: "sarkilar/JOJO SONO CHINO SADAME.mp3",
+      cover: "kapaklar/indir (4).jpg",
+      lyrics:`(JoJo! JoJo! JoJo!)
 
 Sora! Koboreochita futatsu no hoshi ga
 Hikari to yami no minamo suikomareteyuku
@@ -515,10 +217,14 @@ Soshite deatta futari no tame ni tatakai wo
 Maku ga aita you na owarinaki monogatari
 Inochi ga butsukaru hibana seishun no hibi wo terase yo
 Kimi to iu mirai ni 'Kouun' wo!
-~Sono chi no sadame~ JoJo`,
-
-"Great Days (Opening 7 - 4K Creditless HD)": `[Refrain: Karen Aoki & Daisuke Hasegawa]
-Breakdown, breakdown, listen
+~Sono chi no sadame~ JoJo`
+    },
+    {
+      title: "Great Days (Opening 7 - 4K Creditless HD)",
+      artist: "JoJo's Bizarre Adventure",
+      src: "sarkilar/JoJos Bizarre Adventure  Opening 7 - Great Days  4K Creditless HD.mp3",
+      cover: "kapaklar/indir (6).jpg",
+      lyrics:`Breakdown, breakdown, listen
 Breakdown, breakdown, listen
 Breakdown, breakdown
 Breakdown, breakdown
@@ -576,8 +282,13 @@ Breakdown, breakdown
 Breakdown, breakdown
 Breakdown, breakdown`,
 
-"Diamond is Unbreakable - Opening 1 (Creditless)": `[Verse 1]
-Surechigatteku kao no nai shisen
+    },
+    {
+      title: "Diamond is Unbreakable - Opening 1 (Creditless)",
+      artist: "JoJo's Bizarre Adventure",
+      src: "sarkilar/Jojos Bizarre Adventure Diamond is Unbreakable - Opening 1 (Creditless)  [HD].mp3",
+      cover: "kapaklar/indir (5).jpg",
+      lyrics:`Surechigatteku kao no nai shisen
 Mune no ana ga kaetetta nichijou
 Kyoukai nante naku deau atarimae no kimyou
 Uh-yeah
@@ -630,10 +341,14 @@ Crazy noisy bizarre town
 Dakedo kyou mo joujou ni
 Jooku nanka ii atte
 Oretachi de odore
-Crazy noisy bizarre town`,
-
-"OP 2 UHD 2160p Creditless": `[Verse 1]
-Shijima no soko kara
+Crazy noisy bizarre town`
+    },
+    {
+      title: "OP 2 UHD 2160p Creditless",
+      artist: "JoJo's Bizarre Adventure",
+      src: "sarkilar/Jojos Bizarre Adventure OP 2  UHD 2160p  Creditless.mp3",
+      cover: "kapaklar/indir (7).jpg",
+      lyrics:`Shijima no soko kara
 Mezameru sono hashiratachi toki wo koe
 Shinku no chishio ga tachiagaru yuuki wo
 Hikiawaseru
@@ -672,9 +387,13 @@ Tsuranuita omoi ga mirai wo hiraku
 Like a bloody storm, atsuku like a bloody stone
 Ketsumyaku ni kizamareta innen ni
 Ukiagaru kienai hokori no kizuna nigirishimete`,
-
-"STAND PROUD (Opening 3)": `[Verse 1]
-Soshite tsudoishi stardust
+ },
+    {
+      title: "STAND PROUD (Opening 3)",
+      artist: "JoJo's Bizarre Adventure",
+      src: "sarkilar/JoJos Bizarre Adventure Opening 3 STAND PROUD.mp3",
+      cover: "kapaklar/indir (8).jpg",
+      lyrics:`Soshite tsudoishi stardust
 Hyakunen me no mezame ni yobarete
 Otokotachi wa mukau
 Toki no suna wo koeru journey
@@ -728,9 +447,14 @@ Teki wo taoshi
 (JOJO! JOJO! JOJO!)
 Break you down! Break you down! Break you down!
 Michi wo hiraku tamashi no vijon
-Stand proud!`,
-
-"Pillar Men Theme『Awaken』": `Ayayayayayay
+Stand proud!`
+    },
+    {
+      title: "Pillar Men Theme『Awaken』",
+      artist: "JoJo's Bizarre Adventure OST",
+      src: "sarkilar/JoJos Bizarre Adventure OST - Pillar Men Theme『Awaken』.mp3",
+      cover: "kapaklar/indir (9).jpg",
+      lyrics:`Ayayayayayay
 Come on, hey, woah
 Come on, hey, yeah
 Come on, hey, woah
@@ -779,9 +503,14 @@ Come on, hey, woah
 Come on, hey, yeah
 Come on, hey, woah
 You thought you hot shit
-I′ll let you know`,
-
-"Beat It (Official 4K Video)": `They told him, "Don't you ever come around here"
+I′ll let you know`
+    },
+    {
+      title: "Beat It (Official 4K Video)",
+      artist: "Michael Jackson",
+      src: "sarkilar/Michael Jackson - Beat It (Official 4K Video).mp3",
+      cover: "kapaklar/indir (11).jpg",
+      lyrics:`They told him, "Don't you ever come around here"
 "Don't wanna see your face, you better disappear"
 The fire's in their eyes and their words are really clear
 So beat it, just beat it
@@ -835,9 +564,14 @@ Just beat it (beat it), beat it (beat it)
 No one wants to be defeated
 Showin' how funky and strong is your fight
 It doesn't matter who's wrong or right
-Just beat it (beat it), beat it (beat it)`,
-
-"Billie Jean (Official Video)": `She was more like a beauty queen from a movie scene
+Just beat it (beat it), beat it (beat it)`
+    },
+    {
+      title: "Billie Jean (Official Video)",
+      artist: "Michael Jackson",
+      src: "sarkilar/Michael Jackson - Billie Jean (Official Video).mp3",
+      cover: "kapaklar/indir (10).jpg",
+      lyrics:`She was more like a beauty queen from a movie scene
 I said, "Don't mind, but what do you mean, I am the one
 Who will dance on the floor in the round?"
 She said I am the one
@@ -896,9 +630,14 @@ Billie Jean is not my lover
 Billie Jean is not my lover
 Billie Jean is not my lover (don't call me Billie Jean, hoo)
 Billie Jean is not my lover
-Billie Jean is not- (hee)`,
-
-"Smooth Criminal (Official Video)": `Aaow!
+Billie Jean is not- (hee)`
+    },
+    {
+      title: "Smooth Criminal (Official Video)",
+      artist: "Michael Jackson",
+      src: "sarkilar/Michael Jackson - Smooth Criminal (Official Video).mp3",
+      cover: "kapaklar/indir (12).jpg",
+      lyrics:`Aaow!
 Tcha!
 Shoo-cha-choo-cha!
 Tcha!
@@ -1057,9 +796,14 @@ He came into your apartment (dag gone it)
 Left bloodstains on the carpet (hoo!)
 And then you ran into the bedroom (hoo! Hoo!)
 You were struck down (dag gone it)
-It was your doom, Annie (aaow!)`,
-
-"il vento d’oro": `Feel the hip hop, if you can rock
+It was your doom, Annie (aaow!)`
+    },
+    {
+      title: "il vento d’oro",
+      artist: "JoJo's Bizarre Adventure: Golden Wind",
+      src: "sarkilar/il vento doro.mp3",
+      cover: "kapaklar/indir (13).jpg",
+      lyrics:`Feel the hip hop, if you can rock
 Need you, kick that
 Turn up the bass
 Go crazy, one by one
@@ -1124,10 +868,14 @@ Ye, ye, yeah, kick it, kick it loud
 And you forgot to turn up the bass!
 Go crazy, it's a dangerous world
 Brrt, stick up
-Giogio`,
-
-"Queen - Another One Bites the Dust (Official Video)": `
-Let's go!
+Giogio`
+    },
+    {
+      title: "Queen - Another One Bites the Dust (Official Video)",
+      artist: "Queen",
+      src: "sarkilar/Queen - Another One Bites The Dust [Lyrics].mp3",
+      cover: "kapaklar/Bites_the_Dust_Infobox_Manga.png",
+      lyrics:`Let's go!
 Steve walks warily down the street
 With the brim pulled way down low
 Ain't no sound but the sound of his feet
@@ -1183,10 +931,20 @@ Hey, I'm gonna get you too
 Another one bites the dust
 Shoot out
 Ay-yeah
-Alright`,
-
-"JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険】": `
-Steel Ball Run
+Alright`
+    },
+    {
+      title: "Feyzulah",
+      artist: "Feyzulah",
+      src: "sarkilar/Feyzulah.mp3",
+      cover: "kapaklar/indir (14).jpg"
+    },
+    {
+      title: "JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険】",
+      artist: "JoJo's Bizarre Adventure OST",
+      src: "sarkilar/JoJo ★ STEEL BALL RUN OP ★『Holy Steel』- Original - JoJos Bizarre Adventure Part 7 【ジョジョの奇妙な冒険】.mp3",
+      cover: "kapaklar/images.jpg",
+      lyrics:`Steel Ball Run
 Steel ball run
 
 Steel Ball Run
@@ -1249,9 +1007,14 @@ Now or die
 Now or die
 
 Hold tight your holy steel
-Hold tight your holy steel`,
-
-"Army Of Lovers - Crucified": `I'm crucified, crucified like my savior
+Hold tight your holy steel`
+    },
+    {
+      title: "Army Of Lovers - Crucified",
+      artist: "Army Of Lovers",
+      src: "sarkilar/Army Of Lovers - Crucified.mp3",
+      cover: "kapaklar/main-qimg-23e73ec9ad270cf1a6ed0a0d78d81f66-lq.jpg",
+      lyrics:`I'm crucified, crucified like my savior
 Saintlike behavior, a lifetime I prayed
 I'm crucified for the holy dimension
 Godlike ascension, heavens away
@@ -1286,9 +1049,14 @@ Godlike ascension, heavens away
 I'm crucified, crucified like my savior
 Saintlike behavior, a lifetime I prayed
 I'm crucified for the holy dimension
-Godlike ascension, heavens away`,
-
-"Lady Gaga - Judas (Lyrics)": `Oh, whoa-whoa, oh-oh
+Godlike ascension, heavens away`
+    },
+    {
+      title: "Lady Gaga - Judas (Lyrics)",
+      artist: "Lady Gaga",
+      src: "sarkilar/Lady Gaga - Judas (Lyrics).mp3",
+      cover: "kapaklar/indir (16).jpg",
+      lyrics:`Oh, whoa-whoa, oh-oh
 I'm in love with Judas, Judas
 Oh-oh-oh-oh-oh
 I'm in love with Judas, Judas
@@ -1349,9 +1117,14 @@ I'm in love with Judas, Judas
 Oh-oh-oh-oh-oh
 I'm in love with Judas, Judas
 Judas, Juda-ah-ah, Judas, Juda-ah-ah
-Judas, Juda-ah-ah, Judas, Gaga`,
-
-"Miku (Lyrics Video)": `Miku, Miku, you can call me Miku
+Judas, Juda-ah-ah, Judas, Gaga`
+    },
+    {
+      title: "Miku (Lyrics Video)",
+      artist: "Miku",
+      src: "sarkilar/Miku by Anamanaguchi (Lyrics Video).mp3",
+      cover: "kapaklar/indir (15).jpg",
+      lyrics:`Miku, Miku, you can call me Miku
 Blue hair, blue tie, hiding in your wi-fi
 Open secrets, anyone can find me
 Hear your music running through my mind
@@ -1409,9 +1182,14 @@ To live my life and sing along
 I'm lying with you wide awake
 Like your expensive poison snake
 You found me here inside a dream
-Walk through the fire straight to me`,
-
-"Ben Fero - 3 2 1 [Official Video]": `3 2 1 bitir işi
+Walk through the fire straight to me`
+    },
+    {
+      title: "Ben Fero - 3 2 1 [Official Video]",
+      artist: "Ben Fero",
+      src: "sarkilar/Ben Fero - 3 2 1 [Official Video].mp3",
+      cover: "kapaklar/indir (17).jpg",
+      lyrics:`3 2 1 bitir işi
 Bu Rap'im iyi ve bitirici
 Popüleriz gibi gibi
 Göremedin ki Biggie Biggie
@@ -1491,9 +1269,14 @@ Göremedin ki Biggie, Biggie
 Yalan olur birikimin
 Göremez işini bir-iki bin
 Dedim; "Hip-Hop iyi fikir"
-İyi gelir ve bir-iki mil`,
-
-"TARKAN - Şımarık": `Takmış Koluna elin adamını beni
+İyi gelir ve bir-iki mil`
+    },
+    {
+      title: "TARKAN - Şımarık",
+      artist: "TARKAN",
+      src: "sarkilar/Tarkan - Şımarık (Audio).mp3",
+      cover: "kapaklar/indir (20).jpg",
+      lyrics:`Takmış Koluna elin adamını beni
 Orta yerimden çatlatıyor
 Ağzında sakızı şişirip şişirip
 Arsız arsız patlatıyor
@@ -1566,9 +1349,14 @@ El aman
 Seni gidi fındık kıran
 Yılanı deliğinden cikaran
 Kaderim püsküllü belam
-Yakalarsam`,
-
-"Müslüm Gürses - Seni Yazdım Kalbime": `Solmadan gel artık aşkımın gülü
+Yakalarsam`
+    },
+    {
+      title: "Müslüm Gürses - Seni Yazdım Kalbime",
+      artist: "Müslüm Gürses",
+      src: "sarkilar/Müslüm Gürses - Seni Yazdım.mp3",
+      cover: "kapaklar/maxresdefault.jpg",
+      lyrics:`Solmadan gel artık aşkımın gülü
 Olsa da konuşsa kalbimin dili
 Küçücük dünyamda bir bilsem seni
 Görünmez yazıyla yazdım kalbime
@@ -1591,9 +1379,14 @@ Anılarla yazdım seni kalbime
 Böyle bir aşk görülmemiş dünyada
 Ne geçmişte ne de bundan sonra da
 Arasalar bulamazlar rüyada
-Göremezler seni yazdım kalbime`,
-
-"Ferdi Tayfur - İçim Yanar": `Hani en sevdiğini kaybettiğinde
+Göremezler seni yazdım kalbime`
+    },
+    {
+      title: "Ferdi Tayfur - İçim Yanar",
+      artist: "Ferdi Tayfur",
+      src: "sarkilar/Ferdi Tayfur - İçim Yanar.mp3",
+      cover: "kapaklar/indir (18).jpg",
+      lyrics:`Hani en sevdiğini kaybettiğinde
 İçin yanar yanar yanar yanar ya
 Ben de seni kaybettim ağlarım şimdi
 İçim yanar yanar yanar yanar yanar ah
@@ -1619,9 +1412,14 @@ Canım yanar yanar yanar yanar yanar
 Canım yanar yanar yanar yanar yanar
 İçim yanar yanar yanar yanar yanar ah
 İçim yanar yanar yanar yanar yanar
-Canım yanar yanar yanar yanar yanar`,
-
-"Ferdi Özbeğen - Gündüzüm Seninle": `Gündüzüm seninle
+Canım yanar yanar yanar yanar yanar`
+    },
+    {
+      title: "Ferdi Özbeğen - Gündüzüm Seninle",
+      artist: "Ferdi Özbeğen",
+      src: "sarkilar/Ferdi Özbeğen - Gündüzüm Seninle.mp3",
+      cover: "kapaklar/indir (21).jpg",
+      lyrics:`Gündüzüm seninle
 Gecem seninle
 Beyhude geçti bu
 Ömrüm derdinle
@@ -1644,9 +1442,14 @@ Geceleri rüyada
 Aşkını bir sır gibi
 Senelerdir sakladım
 Geceleri rüyada
-İsmini sayıkladım`,
-
-"Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg": `Greetings loved ones
+İsmini sayıkladım`
+    },
+    {
+      title: "Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg",
+      artist: "Katy Perry -ft. Snoop Dogg",
+      src: "sarkilar/Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg.mp3",
+      cover: "kapaklar/indir (19).jpg",
+      lyrics:`Greetings loved ones
 Let's take a journey.
 I know a place
 Where the grass is really greener
@@ -1720,4 +1523,161 @@ Oooh oh oooh (Ey, ey)
 California girls, man
 (California, California girls)
 I really wish you all could be California girls`
-};
+    }
+  ];
+    // Diğer şarkıları da aynı şekilde ekle
+
+// Varsayım: lyricsVisible adında bir bool değişken mevcut ve toggle ediliyor
+// Varsayım: lyricsVisible adında bir bool değişken mevcut ve toggle ediliyor
+const lyricsDiv = document.getElementById("lyricsDiv");
+const lyricsButton2 = document.getElementById("lyricsButton");
+const originalLyricsHeight = lyricsDiv.clientHeight; // Başlangıç yüksekliği
+let lyricsVisible = false;
+
+lyricsButton2.addEventListener("click", () => {
+    lyricsVisible = !lyricsVisible;
+
+    if (lyricsVisible) {
+        lyricsDiv.style.display = "block";
+        lyricsDiv.style.height = "auto";
+
+        // Şu anki şarkı
+        const currentSong = songs[current];
+
+        if (currentSong.lyrics) {
+            lyricsDiv.textContent = currentSong.lyrics;
+        } else {
+            lyricsDiv.textContent = "Şarkı sözü bulunamadı.";
+        }
+
+        lyricsButton2.textContent = "Close Lyrics";
+    } else {
+        lyricsDiv.style.display = "none";
+        lyricsDiv.style.height = originalLyricsHeight + "px";
+        lyricsDiv.textContent = "";
+        lyricsButton2.textContent = "Open Lyrics";
+    }
+});
+
+ 
+  
+  function loadSong(index) {
+    const song = songs[index];
+    title.textContent = song.title;
+    artist.textContent = song.artist;
+    cover.src = song.cover;
+    audio.src = song.src;
+    playBtn.textContent = "▶️";
+  }
+  
+  function playSong() {
+    audio.play();
+    playBtn.textContent = "⏸";
+  }
+  
+  function pauseSong() {
+    audio.pause();
+    playBtn.textContent = "▶️";
+  }
+  
+  playBtn.addEventListener("click", () => {
+    if (audio.paused) playSong();
+    else pauseSong();
+  });
+  
+  nextBtn.addEventListener("click", () => {
+    current = (current + 1) % songs.length;
+    loadSong(current);
+    playSong();
+  });
+  
+  prevBtn.addEventListener("click", () => {
+    current = (current - 1 + songs.length) % songs.length;
+    loadSong(current);
+    playSong();
+  });
+  
+  forward5.addEventListener("click", () => (audio.currentTime += 5));
+  back5.addEventListener("click", () => (audio.currentTime -= 5));
+  
+  audio.addEventListener("timeupdate", () => {
+    progress.value = audio.currentTime;
+    currentTime.textContent = formatTime(audio.currentTime);
+  });
+  
+  audio.addEventListener("loadedmetadata", () => {
+    progress.max = audio.duration;
+    duration.textContent = formatTime(audio.duration);
+  });
+  
+  progress.addEventListener("input", () => {
+    audio.currentTime = progress.value;
+  });
+  
+  function formatTime(sec) {
+    const minutes = Math.floor(sec / 60);
+    const seconds = Math.floor(sec % 60);
+    return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
+  }
+  
+  // Playlist Oluştur
+  songs.forEach((song, index) => {
+    const item = document.createElement("div");
+    item.className = "playlist-item";
+    item.textContent = `${song.artist} - ${song.title}`;
+    item.addEventListener("click", () => {
+      current = index;
+      loadSong(current);
+      playSong();
+    });
+    playlist.appendChild(item);
+  });
+  
+  // İlk şarkı yüklensin
+  loadSong(current);
+  
+  // Ses Kontrolü
+const volumeSlider = document.getElementById("volume");
+volumeSlider.addEventListener("input", () => {
+  audio.volume = volumeSlider.value;
+});
+
+// Hız Kontrolü
+const speedSelect = document.getElementById("speed");
+speedSelect.addEventListener("change", () => {
+  audio.playbackRate = parseFloat(speedSelect.value);
+});
+const searchInput = document.getElementById("search");
+const searchResults = document.getElementById("search-results");
+
+searchInput.addEventListener("input", () => {
+  const searchTerm = searchInput.value.toLowerCase();
+  searchResults.innerHTML = "";
+  
+  if (searchTerm.trim() === "") {
+    searchResults.style.display = "none";
+    return;
+  }
+
+  const filteredSongs = songs.filter(song => 
+    song.title.toLowerCase().includes(searchTerm) ||
+    song.artist.toLowerCase().includes(searchTerm)
+  );
+
+  filteredSongs.forEach((song, index) => {
+    const item = document.createElement("div");
+    item.className = "search-item";
+    item.textContent = `${song.artist} - ${song.title}`;
+    item.addEventListener("click", () => {
+      current = songs.indexOf(song);
+      loadSong(current);
+      playSong();
+      searchResults.style.display = "none";
+    });
+    searchResults.appendChild(item);
+  });
+
+  searchResults.style.display = filteredSongs.length ? "block" : "none";
+});
+
+// Şarkı sözlerini tutacak bir obje (örnek şarkı sözleri ekleyebilirsiniz)
