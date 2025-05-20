@@ -1529,34 +1529,46 @@ I really wish you all could be California girls`
 
 // Varsayım: lyricsVisible adında bir bool değişken mevcut ve toggle ediliyor
 // Varsayım: lyricsVisible adında bir bool değişken mevcut ve toggle ediliyor
-const lyricsDiv = document.getElementById("lyricsDiv");
-const lyricsButton2 = document.getElementById("lyricsButton");
-const originalLyricsHeight = lyricsDiv.clientHeight; // Başlangıç yüksekliği
+const lyricsButton2 = document.getElementById("lyrics-button");
+
+const lyricsDiv = document.getElementById("lyrics");
+
+
+
 let lyricsVisible = false;
 
-lyricsButton2.addEventListener("click", () => {
+
+
+lyricsButton.addEventListener("click", () => {
+
     lyricsVisible = !lyricsVisible;
 
-    if (lyricsVisible) {
-        lyricsDiv.style.display = "block";
-        lyricsDiv.style.height = "auto";
 
-        // Şu anki şarkı
+
+    if (lyricsVisible) {
+
+        lyricsDiv.style.display = "block";
+
+        lyricsButton.textContent = "Close Lyrics";
+
+
+
+        // Şu an çalan şarkıyı al ve şarkı sözlerini göster
+
         const currentSong = songs[current];
 
-        if (currentSong.lyrics) {
-            lyricsDiv.textContent = currentSong.lyrics;
-        } else {
-            lyricsDiv.textContent = "Şarkı sözü bulunamadı.";
-        }
+        lyricsDiv.textContent = currentSong.lyrics ? currentSong.lyrics : "Şarkı sözü bulunamadı.";
 
-        lyricsButton2.textContent = "Close Lyrics";
     } else {
+
         lyricsDiv.style.display = "none";
-        lyricsDiv.style.height = originalLyricsHeight + "px";
+
+        lyricsButton.textContent = "Show Lyrics";
+
         lyricsDiv.textContent = "";
-        lyricsButton2.textContent = "Open Lyrics";
+
     }
+
 });
 
  
