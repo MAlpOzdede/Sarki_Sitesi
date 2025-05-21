@@ -1545,7 +1545,7 @@ I really wish you all could be California girls`
     {
       title: "Soner Sarıkabadayı - Mevzu Derin",
       artist: "Soner Sarıkabadayı",
-      src: "sarkilar/Soner Sarıkabadayı - Mevzu Derin (Official Video)mp3",
+      src: "sarkilar/Soner Sarıkabadayı - Mevzu Derin (Official Video).mp3",
       cover: "kapaklar/indir (25).jpg"
     },
     {
@@ -1581,7 +1581,7 @@ I really wish you all could be California girls`
     {
       title: "Jason Derulo, Frozy & Tomo - From The Islands",
       artist: "Jason Derulo, Frozy & Tomo",
-      src: "sarkilar/YJason Derulo, Frozy & Tomo - From The Islands (Lyrics)(Kompa Passion).mp3",
+      src: "sarkilar/Jason Derulo, Frozy & Tomo - From The Islands (Lyrics)(Kompa Passion).mp3",
       cover: "kapaklar/indir (31).jpg"
     },
     {
@@ -1611,7 +1611,7 @@ I really wish you all could be California girls`
     {
       title: "BLACKPINK - 붐바야 (BOOMBAYAH)",
       artist: "BLACKPINK (Bu grubu cidden hala dinleyen var mı bunu bana ekleten ciddi misin)",
-      src: "sarkilar/BLACKPINK - 붐바야 (BOOMBAYAH) MV",
+      src: "sarkilar/BLACKPINK - 붐바야 (BOOMBAYAH) MV.mp3",
       cover: "kapaklar/indir (36).jpg"
     },
     {
@@ -1629,7 +1629,7 @@ I really wish you all could be California girls`
     {
       title: "Adele - Skyfall",
       artist: "Adele",
-      src: "sarkilar/Adele - Skyfall (Lyrics)",
+      src: "sarkilar/Adele - Skyfall (Lyrics).mp3",
       cover: "kapaklar/indir (39).jpg"
     }
   ];
