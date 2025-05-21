@@ -1523,6 +1523,114 @@ Oooh oh oooh (Ey, ey)
 California girls, man
 (California, California girls)
 I really wish you all could be California girls`
+    },
+    {
+      title: "いきものがかり 『ブルーバード』",
+      artist: "Ikimono-gakari",
+      src: "sarkilar/いきものがかり 『ブルーバード』Music Video.mp3",
+      cover: "kapaklar/indir (22).jpg"
+    },
+    {
+      title: "Yedinci Ev - Anlat Ona ",
+      artist: "Yedinci Ev",
+      src: "sarkilar/Yedinci Ev - Anlat Ona (Sözleri).mp3",
+      cover: "kapaklar/indir (23).jpg"
+    },
+    {
+      title: "Tyler, The Creator ",
+      artist: "Tyler, The Creator",
+      src: "sarkilar/Tyler, The Creator - See You Again (Audio) ft. Kali Uchis.mp3",
+      cover: "kapaklar/indir (24).jpg"
+    },
+    {
+      title: "Soner Sarıkabadayı - Mevzu Derin",
+      artist: "Soner Sarıkabadayı",
+      src: "sarkilar/Soner Sarıkabadayı - Mevzu Derin (Official Video)mp3",
+      cover: "kapaklar/indir (25).jpg"
+    },
+    {
+      title: "Sezen Aksu - Biliyorsun ",
+      artist: "Sezen Aksu",
+      src: "sarkilar/Sezen Aksu - Biliyorsun (Lyrics) sende benim kadar gerçekleri biliyorsun.mp3",
+      cover: "kapaklar/indir (26).jpg"
+    },
+    {
+      title: "Portishead - Glory Box",
+      artist: "Portishead",
+      src: "sarkilar/Portishead - Glory Box.mp3",
+      cover: "kapaklar/indir (27).jpg"
+    },
+    {
+      title: "Model  Berk Bekar - Sen ona aşıksın  Ben sana aşıktım.",
+      artist: "Model  Berk Bekar",
+      src: "sarkilar/Model  Berk Bekar - Sen ona aşıksın  Ben sana aşıktım..mp3",
+      cover: "kapaklar/indir (28).jpg"
+    },
+    {
+      title: "Lady Gaga, Bruno Mars - Die With A Smile ",
+      artist: "Lady Gaga, Bruno Mars",
+      src: "sarkilar/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video).mp3",
+      cover: "kapaklar/indir (29).jpg"
+    },
+    {
+      title: "Justin Bieber - Baby ft. Ludacris",
+      artist: "Justin Bieber",
+      src: "sarkilar/Justin Bieber - Baby ft. Ludacris.mp3",
+      cover: "kapaklar/indir (30).jpg"
+    },
+    {
+      title: "Jason Derulo, Frozy & Tomo - From The Islands",
+      artist: "Jason Derulo, Frozy & Tomo",
+      src: "sarkilar/YJason Derulo, Frozy & Tomo - From The Islands (Lyrics)(Kompa Passion).mp3",
+      cover: "kapaklar/indir (31).jpg"
+    },
+    {
+      title: "Göksel - Uzaktan",
+      artist: "Göksel",
+      src: "sarkilar/Göksel - Uzaktan (Official Video).mp3",
+      cover: "kapaklar/indir (32).jpg"
+    },
+    {
+      title: "Göksel - Denize Bıraksam",
+      artist: "Göksel",
+      src: "sarkilar/Göksel - Denize Bıraksam (Official Video).mp3",
+      cover: "kapaklar/indir (33).jpg"
+    },
+    {
+      title: "Funda - Çaresizim",
+      artist: "Funda",
+      src: "sarkilar/Yedinci Ev - Anlat Ona (Sözleri).mp3",
+      cover: "kapaklar/indir (34).jpg"
+    },
+    {
+      title: "Eylem Aktaş - Hatırla Sevgili",
+      artist: "Eylem Aktaş",
+      src: "sarkilar/Eylem Aktaş - Hatırla Sevgili Lyrics.mp3",
+      cover: "kapaklar/indir (35).jpg"
+    },
+    {
+      title: "BLACKPINK - 붐바야 (BOOMBAYAH)",
+      artist: "BLACKPINK (Bu grubu cidden hala dinleyen var mı bunu bana ekleten ciddi misin)",
+      src: "sarkilar/BLACKPINK - 붐바야 (BOOMBAYAH) MV",
+      cover: "kapaklar/indir (36).jpg"
+    },
+    {
+      title: "Atiye - Salla",
+      artist: "Yedinci Ev",
+      src: "sarkilar/Atiye - Salla (SözleriLyrics) Üzeni yolla, isterse dönsün sonra.mp3",
+      cover: "kapaklar/indir (37).jpg"
+    },
+    {
+      title: "Alexander Rybak - Fairytale",
+      artist: "Alexander Rybak",
+      src: "sarkilar/Alexander Rybak - Fairytale (Lyrics) Norway 🇳🇴 Eurovision Winner 2009.mp3",
+      cover: "kapaklar/indir (38).jpg"
+    },
+    {
+      title: "Adele - Skyfall",
+      artist: "Adele",
+      src: "sarkilar/Adele - Skyfall (Lyrics)",
+      cover: "kapaklar/indir (39).jpg"
     }
   ];
     // Diğer şarkıları da aynı şekilde ekle
