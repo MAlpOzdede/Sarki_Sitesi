@@ -1012,7 +1012,7 @@ Hold tight your holy steel`
     {
       title: "Army Of Lovers - Crucified",
       artist: "Army Of Lovers",
-      src: "sarkilar/Army Of Lovers - Crucified.mp3",
+      src: "sarkilar/Army Of Lovers - Crucified (Lyrics).mp3",
       cover: "kapaklar/main-qimg-23e73ec9ad270cf1a6ed0a0d78d81f66-lq.jpg",
       lyrics:`I'm crucified, crucified like my savior
 Saintlike behavior, a lifetime I prayed
