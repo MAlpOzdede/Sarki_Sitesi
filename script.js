@@ -1631,6 +1631,36 @@ I really wish you all could be California girls`
       artist: "Adele",
       src: "sarkilar/Adele - Skyfall (Lyrics).mp3",
       cover: "kapaklar/indir (39).jpg"
+    },
+    {
+      title: "Undertale - Megalovania",
+      artist: "Toby Fox",
+      src: "sarkilar/Undertale - Megalovania.mp3",
+      cover: "kapaklar/indir.png"
+    },
+    {
+      title: "Hopes And Dreams",
+      artist: "Toby Fox",
+      src: "sarkilar/Hopes And Dreams.mp3",
+      cover: "kapaklar/indir (1).png"
+    },
+    {
+      title: "Hayat Şaşırtır!",
+      artist: "Aydilge",
+      src: "sarkilar/Aydilge - Hayat Şaşırtır! (Official Video).mp3",
+      cover: "kapaklar/indir (41).jpg"
+    },
+    {
+      title: "Chase",
+      artist: "JOJO",
+      src: "sarkilar/chase.mp3",
+      cover: "kapaklar/indir (40).jpg"
+    },
+    {
+      title: "Touch You (Lütfen doğrusu ol 1000'lerce aynı adlı şarkı var :( )",
+      artist: "Yarichin☆Bitch Club",
+      src: "sarkilar/Yarichin☆Bitch Club - Touch You (Full Cover).mp3",
+      cover: "kapaklar/indir (42).jpg"
     }
   ];
     // Diğer şarkıları da aynı şekilde ekle
