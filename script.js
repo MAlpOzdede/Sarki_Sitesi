@@ -1610,7 +1610,7 @@ I really wish you all could be California girls`
     },
     {
       title: "BLACKPINK - 붐바야 (BOOMBAYAH)",
-      artist: "BLACKPINK (Bu grubu cidden hala dinleyen var mı bunu bana ekleten ciddi misin)",
+      artist: "BLACKPINK",
       src: "sarkilar/BLACKPINK - 붐바야 (BOOMBAYAH) MV.mp3",
       cover: "kapaklar/indir (36).jpg"
     },
@@ -1657,10 +1657,184 @@ I really wish you all could be California girls`
       cover: "kapaklar/indir (40).jpg"
     },
     {
-      title: "Touch You (Lütfen doğrusu ol 1000'lerce aynı adlı şarkı var :( )",
+      title: "Touch You",
       artist: "Yarichin☆Bitch Club",
       src: "sarkilar/Yarichin☆Bitch Club - Touch You (Full Cover).mp3",
       cover: "kapaklar/indir (42).jpg"
+    },
+    {
+      title: "Lay All Your Love On Me",
+      artist: "ABBA",
+      src: "sarkilar/ABBA - Lay All Your Love On Me (Official Lyric Video).mp3",
+      cover: "kapaklar/indir (43).jpg"
+    },
+    {
+      title: "Happy Nation",
+      artist: "Ace of Base",
+      src: "sarkilar/Ace of Base - Happy Nation (Official Music Video).mp3",
+      cover: "kapaklar/indir (44).jpg"
+    },
+    {
+      title: "Ali Desidero",
+      artist: "Hatırlamadım",
+      src: "sarkilar/Ali Desidero.mp3",
+      cover: "kapaklar/indir (45).jpg"
+    },
+    {
+      title: "Tek It (I Watch The Moon)",
+      artist: "Cafuné",
+      src: "sarkilar/Cafuné - Tek It (I Watch The Moon) [Official Video].mp3",
+      cover: "kapaklar/indir (46).jpg"
+    },
+    {
+      title: "Gangsta's Paradise",
+      artist: "Coolio",
+      src: "sarkilar/Coolio - Gangsta's Paradise (feat. L.V.) [Official Music Video].mp3",
+      cover: "kapaklar/indir (47).jpg"
+    },
+    {
+      title: "Feel It (Lyrics)",
+      artist: "d4vd",
+      src: "sarkilar/d4vd - Feel It (Lyrics).mp3",
+      cover: "kapaklar/indir (48).jpg"
+    },
+    {
+      title: "Bling-Bang-Bang-Born",
+      artist: "Creepy Nuts",
+      src: "sarkilar/Creepy NutsBling-Bang-Bang-Born  TVアニメマッシュル-MASHLE- Collaboration Music Video.mp3",
+      cover: "kapaklar/indir (49).jpg"
+    },
+    {
+      title: "chess",
+      artist: "joyful",
+      src: "sarkilar/joyful - chess (slowed).mp3",
+      cover: "kapaklar/indir (50).jpg"
+    },
+    {
+      title: "Moonlight",
+      artist: "Kali Uchis",
+      src: "sarkilar/Kali Uchis - Moonlight.mp3",
+      cover: "kapaklar/indir (51).jpg"
+    },
+    {
+      title: "Ransom",
+      artist: "Lil Tecca",
+      src: "sarkilar/Lil Tecca, Juice WRLD - Ransom (Clean - Lyrics).mp3",
+      cover: "kapaklar/indir (52).jpg"
+    },
+    {
+      title: "love for you",
+      artist: "loveli lori & ovg!",
+      src: "sarkilar/loveli lori & ovg! - love for you (Official Audio).mp3",
+      cover: "kapaklar/indir (53).jpg"
+    },
+    {
+      title: "Im Doing Fine",
+      artist: "Marino",
+      src: "sarkilar/Marino - Im Doing Fine (Official Music Video).mp3",
+      cover: "kapaklar/indir (54).jpg"
+    },
+    {
+      title: "My Ordinary Life",
+      artist: "The Living Tombstone",
+      src: "sarkilar/My Ordinary Life-The Living Tombstone.mp3",
+      cover: "kapaklar/indir (55).jpg"
+    },
+    {
+      title: "Stephanie",
+      artist: "Nafeesisboujee",
+      src: "sarkilar/Nafeesisboujee - Stephanie (Official Music Video).mp3",
+      cover: "kapaklar/indir (56).jpg"
+    },
+    {
+      title: "Embrace It",
+      artist: "Ndotz",
+      src: "sarkilar/Ndotz - Embrace It (Lyrics).mp3",
+      cover: "kapaklar/indir (57).jpg"
+    },
+    {
+      title: "DICE & ROLL",
+      artist: "ODETARI",
+      src: "sarkilar/ODETARI - DICE & ROLL [Official Audio].mp3",
+      cover: "kapaklar/indir (58).jpg"
+    },
+    {
+      title: "Espresso",
+      artist: "Sabrina Carpenter",
+      src: "sarkilar/Sabrina Carpenter - Espresso (Official Video).mp3",
+      cover: "kapaklar/indir (59).jpg"
+    },
+    {
+      title: "Monster",
+      artist: "Skillet",
+      src: "sarkilar/Skillet - Monster (lyrics).mp3",
+      cover: "kapaklar/indir (60).jpg"
+    },
+    {
+      title: "Discord",
+      artist: "The Living Tombstone",
+      src: "sarkilar/The Living Tombstone, Ft. Eurobeat Brony-Discord (Lyrics Video).mp3",
+      cover: "kapaklar/indir (61).jpg"
+    },
+    {
+      title: "MILLION DOLLAR BABY",
+      artist: "Tommy Richman",
+      src: "sarkilar/Tommy Richman - MILLION DOLLAR BABY (Official Visualizer).mp3",
+      cover: "kapaklar/indir (62).jpg"
+    },
+    {
+      title: "The Rare Occasions",
+      artist: "Vietsub  Notion",
+      src: "sarkilar/Vietsub  Notion - The Rare Occasions  Nhạc Hot TikTok  Lyrics Video.mp3",
+      cover: "kapaklar/indir (63).jpg"
+    },
+    {
+      title: "Tell me",
+      artist: "Wonder Girls",
+      src: "sarkilar/Wonder Girls Tell me MV.mp3",
+      cover: "kapaklar/indir (64).jpg"
+    },
+    {
+      title: "Kuku",
+      artist: "-",
+      src: "sarkilar/Sansür.mp3",
+      cover: "kapaklar/indir (65).jpg"
+    },
+    {
+      title: "FE!N",
+      artist: "Travis Scott",
+      src: "sarkilar/Travis Scott - FE!N (Lyrics).mp3",
+      cover: "kapaklar/31XnTeYznHL._UXNaN_FMjpg_QL85_.jpg"
+    },
+    {
+      title: " On The Floor",
+      artist: "Jennifer Lopez",
+      src: "sarkilar/Jennifer Lopez - On The Floor ft. Pitbull.mp3",
+      cover: "kapaklar/images (1).jpg"
+    },
+    {
+      title: "telepatía",
+      artist: "Kali Uchis",
+      src: "sarkilar/Kali Uchis - telepatía.mp3",
+      cover: "kapaklar/images (2).jpg"
+    },
+    {
+      title: "DOODLE",
+      artist: "ZACHZ WINNER",
+      src: "sarkilar/ZACHZ WINNER - DOODLE.mp3",
+      cover: "kapaklar/images (3).jpg"
+    },
+    {
+      title: "MOONLIGHT",
+      artist: "XXXTENTACION",
+      src: "sarkilar/XXXTENTACION - MOONLIGHT (OFFICIAL MUSIC VIDEO).mp3",
+      cover: "kapaklar/indir (2).png"
+    },
+    {
+      title: "Government Hooker",
+      artist: "Lady Gaga",
+      src: "sarkilar/Lady Gaga - Government Hooker (Official Audio).mp3",
+      cover: "kapaklar/indir (16).jpg"
     }
   ];
     // Diğer şarkıları da aynı şekilde ekle
