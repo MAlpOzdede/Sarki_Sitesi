@@ -1791,7 +1791,7 @@ I really wish you all could be California girls`
     {
       title: "Tell me",
       artist: "Wonder Girls",
-      src: "sarkilar/Wonder Girls Tell me MV.mp3",
+      src: "sarkilar/Wonder Girls - Tell Me (Traducida al Español).mp3",
       cover: "kapaklar/indir (64).jpg"
     },
     {
@@ -1835,6 +1835,180 @@ I really wish you all could be California girls`
       artist: "Lady Gaga",
       src: "sarkilar/Lady Gaga - Government Hooker (Official Audio).mp3",
       cover: "kapaklar/indir (16).jpg"
+    },
+    {
+      title: "【オリジナル楽曲】粛聖!! ロリ神レクイエム☆  しぐれうい（9さい）",
+      artist: "Loli God",
+      src: "sarkilar/【オリジナル楽曲】粛聖!! ロリ神レクイエム☆  しぐれうい（9さい）.mp3",
+      cover: "kapaklar/indir (69).jpg"
+    },
+    {
+      title: "Arabadan Atladı Patladı",
+      artist: "-",
+      src: "sarkilar/Arabadan Atladı A_ı Patladı.mp3",
+      cover: "kapaklar/indir (65).jpg",
+    },
+    {
+      title: "Shinzou wo Sasageyo!",
+      artist: "Attack On Titan",
+      src: "sarkilar/Attack on Titan Season 2 - Opening  Shinzou wo Sasageyo!.mp3",
+      cover: "kapaklar/indir (82).jpg",
+    },
+    {
+      title: "Bang Bang",
+      artist: "Hatırlamadım",
+      src: "sarkilar/Bang Bang.mp3",
+      cover: "kapaklar/indir (80).jpg",
+    },
+    {
+      title: "check",
+      artist: "bbno$",
+      src: "sarkilar/bbno$ - check (official music video).mp3",
+      cover: "kapaklar/indir (70).jpg",
+    },
+    {
+      title: "it boy",
+      artist: "bbno$",
+      src: "sarkilar/bbno$ - it boy (official music video).mp3",
+      cover: "kapaklar/indir (78).jpg",
+    },
+    {
+      title: "two",
+      artist: "bbno$",
+      src: "sarkilar/bbno$ - two (official music video).mp3",
+      cover: "kapaklar/indir (77).jpg",
+    },
+    {
+      title: "BERBER 2019",
+      artist: "-",
+      src: "sarkilar/BERBER KÜFÜRLÜ ŞARKISI 2019.mp3",
+      cover: "kapaklar/indir (65).jpg",
+    },
+    {
+      title: "1 AM",
+      artist: "Civ",
+      src: "sarkilar/Civ - 1 AM.mp3",
+      cover: "kapaklar/indir (88).jpg",
+    },
+    {
+      title: "Houdini",
+      artist: "Eminem",
+      src: "sarkilar/Eminem - Houdini (Lyrics).mp3",
+      cover: "kapaklar/indir (67).jpg",
+    },
+    {
+      title: "The Real Slim Shady",
+      artist: "Eminem",
+      src: "sarkilar/Eminem - The Real Slim Shady (Lyrics) (1).mp3",
+      cover: "kapaklar/indir (79).jpg",
+    },
+    {
+      title: "BERBER",
+      artist: "ERU",
+      src: "sarkilar/ERU - BERBER (prod.ERUxCOTARD).mp3",
+      cover: "kapaklar/indir (65).jpg",
+    },
+    {
+      title: "Cupid",
+      artist: "FIFTY FIFTY",
+      src: "sarkilar/FIFTY FIFTY - Cupid (Twin Version) (Lyrics).mp3",
+      cover: "kapaklar/indir (89).jpg",
+    },
+    {
+      title: "Big Dawgs",
+      artist: "Hanumankind",
+      src: "sarkilar/Hanumankind – Big Dawgs  Ft. Kalmi (Official Music Video)  Def Jam India.mp3",
+      cover: "kapaklar/indir (72).jpg",
+    },
+    {
+      title: "SAGOLUYORUM",
+      artist: "Jeff Redd",
+      src: "sarkilar/Jeff Redd - SAGOLUYORUM (BIG TERORISTA) [Official Music Video].mp3",
+      cover: "kapaklar/indir (65).jpg",
+    },
+    {
+      title: "sins (let me in)",
+      artist: "Kanii",
+      src: "sarkilar/Kanii - sins (let me in) [Official Audio].mp3",
+      cover: "kapaklar/indir (86).jpg",
+    },
+    {
+      title: "Go",
+      artist: "Kanii & 9lives",
+      src: "sarkilar/Kanii & 9lives - Go (Xtayalive 2) [Lyric Video].mp3",
+      cover: "kapaklar/indir (85).jpg",
+    },
+    {
+      title: "Not Like Us",
+      artist: "Kendrick Lamar",
+      src: "sarkilar/Kendrick Lamar - Not Like Us.mp3",
+      cover: "kapaklar/indir (73).jpg",
+    },
+    {
+      title: "tv off",
+      artist: "Kendrick Lamar",
+      src: "sarkilar/Kendrick Lamar - tv off (Official Audio).mp3",
+      cover: "kapaklar/indir (76).jpg",
+    },
+    {
+      title: "9MM",
+      artist: "Memphis Cult",
+      src: "sarkilar/Memphis Cult - 9MM (Lyrics)  watch my 9mm go bang.mp3",
+      cover: "kapaklar/indir (68).jpg",
+    },
+    {
+      title: "Shikairo Days",
+      artist: "My Deer Friend Nokotan",
+      src: "sarkilar/My Deer Friend Nokotan OFFICIAL OPENING - Shikairo Days  Its Anime.mp3",
+      cover: "kapaklar/indir (83).jpg",
+    },
+    {
+      title: "‘I LUV IT’ MV",
+      artist: "PSY",
+      src: "sarkilar/PSY - ‘I LUV IT’ MV.mp3",
+      cover: "kapaklar/indir (74).jpg",
+    },
+    {
+      title: "GANGNAM STYLE",
+      artist: "PSY",
+      src: "sarkilar/PSY - GANGNAM STYLE(강남스타일) MV.mp3",
+      cover: "kapaklar/indir (75).jpg",
+    },
+    {
+      title: "the WORLD",
+      artist: "Death Note",
+      src: "sarkilar/the WORLD －TV Size－.mp3",
+      cover: "kapaklar/indir (81).jpg",
+    },
+    {
+      title: "Hate.",
+      artist: "ThxSoMch",
+      src: "sarkilar/ThxSoMch - Hate. (Official Music Video).mp3",
+      cover: "kapaklar/indir (71).jpg",
+    },
+    {
+      title: "Trap Royalty",
+      artist: "Hatırlamadım",
+      src: "sarkilar/Trap Royalty.mp3",
+      cover: "kapaklar/indir (66).jpg",
+    },
+    {
+      title: "Dinero",
+      artist: "Trinidad Cardona",
+      src: "sarkilar/Trinidad Cardona - Dinero.mp3",
+      cover: "kapaklar/indir (87).jpg",
+    },
+    {
+      title: "Undertale OST 080 - Finale",
+      artist: "Toby Fox",
+      src: "sarkilar/Undertale OST 080 - Finale.mp3",
+      cover: "kapaklar/indir (1).png",
+    },
+    {
+      title: "Honeypie",
+      artist: "JAWNY",
+      src: "sarkilar/JAWNY - Honeypie (Official Video).mp3",
+      cover: "kapaklar/indir (84).jpg",
     }
   ];
     // Diğer şarkıları da aynı şekilde ekle
