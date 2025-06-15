@@ -2009,6 +2009,12 @@ I really wish you all could be California girls`
       artist: "JAWNY",
       src: "sarkilar/JAWNY - Honeypie (Official Video).mp3",
       cover: "kapaklar/indir (84).jpg",
+    },
+    {
+      title: "Under The Influence",
+      artist: "Eminem",
+      src: "sarkilar/Eminem - Under The Influence (Lyrics).mp3",
+      cover: "kapaklar/indir (65).jpg",
     }
   ];
     // Diğer şarkıları da aynı şekilde ekle
