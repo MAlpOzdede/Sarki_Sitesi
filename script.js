@@ -2015,6 +2015,70 @@ I really wish you all could be California girls`
       artist: "Eminem",
       src: "sarkilar/Eminem - Under The Influence (Lyrics).mp3",
       cover: "kapaklar/indir (65).jpg",
+    },
+    {
+      title: "Soda Pop (as if it's your last bundan daha iyi ayrıca (niye bu şarkı tek bana çocuklar için yapılıp yetişkinler için geliyor) blackpink ekletme bu şarkıyla alttaki şarkıyı sırf kpop şeyinizi kapatsın diye koyuyorum ayrıca bu şarkıyı sevmesem bile akılda kalıcı [evet akılda kalıcı its catchyle aynı şey sanırım]",
+      artist: "Saja Boys Who The Fuck ARE THIS GUYSSSS THEY ARE NOT EVEN REAL",
+      src: "sarkilar/Soda Pop Official Lyric Video  KPop Demon Hunters  Sony Animation.mp3",
+      cover: "kapaklar/indir (65).jpg",
+      lyrics: `Hey, hey
+Hey, hey
+Hey
+Don't want you, need you, yeah, I need you to fill me up
+마시고 마셔 봐도, 성에 차지 않아
+Got a feelin' that, oh, yeah (yeah), you could be everything that
+That I need (need), taste so sweet (sweet), every sip makes me want more, yeah
+Lookin' like snacks 'cause you got it like that (whoo)
+Take a big bite, want another bite, yeah
+너의 모든 걸 난 원해, 원해, 원해
+너 말곤 모두 뻔해, 뻔해, 뻔해
+When you're in my arms, I hold you so tight, so tight
+Can't let go, no, no, not tonight
+지금 당장 날 봐, 시간 없잖아
+넌 내꺼야, 이미 알고 있잖아
+'Cause I need you to need me
+I'm empty, you feed me, so refreshin'
+My little soda pop
+You're all I can think of, every drop I drink up
+You're my soda pop, my little soda pop
+Cool me down, you're so hot, pour me up, I won't stop
+You're my soda pop, my little soda pop
+My little soda pop
+Uh, make me wanna flip the top, 한 모금에 you hit the spot
+Every little drip and drop, fizz and pop, ah, 소름 돋아, it's gettin' hot (whoo)
+Yes, I'm sippin' when it's drippin' now, it's done? I need a second round
+And pour a lot, and don't you stop 'til my soda pop fizzles out
+꿈 속에 그려왔던 너
+난 절대 놓칠 수 없어
+널 원해 꼭, I waited so long for a taste of soda
+So, the wait is over, baby
+Come and fill me up (just can't get enough, oh)
+You're all I can think of, every drop I drink up
+You're my soda pop, my little soda pop (yeah, yeah)
+Cool me down, you're so hot, pour me up, I won't stop (oh, oh)
+You're my soda pop, my little soda pop
+Ooh, ooh
+Ooh, ooh
+You're my soda pop, gotta drink every drop
+`
+    },
+    {
+      title: "Golden",
+      artist: "HuntriX (umarım doğrudur)Who The Fuck ARE THIS GUYSSSS THEY ARE NOT EVEN REAL",
+      src: "sarkilar/“Golden” Official Lyric Video  KPop Demon Hunters  Sony Animation.mp3",
+      cover: "kapaklar/indir (65).jpg",
+    },
+    {
+      title: "HAYASIIII",
+      artist: "Dandadan",
+      src: "sarkilar/TVアニメ『ダンダダン』HAYASii「Hunting Soul_Lyrics」【lyric video】.mp3",
+      cover: "kapaklar/indir (65).jpg",
+    },
+    {
+      title: "Your Idol (kpop seven bir sınıf ve küçük bir kız kuzen)",
+      artist: "Saja Boys Who The Fuck ARE THIS GUYSSSS THEY ARE NOT EVEN REAL",
+      src: "sarkilar/Your Idol  Official Song Clip  KPop Demon Hunters  Sony Animation.mp3",
+      cover: "kapaklar/indir (65).jpg",
     }
   ];
     // Diğer şarkıları da aynı şekilde ekle
