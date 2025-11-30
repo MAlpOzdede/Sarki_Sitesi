@@ -2017,8 +2017,7 @@ I really wish you all could be California girls`
       cover: "kapaklar/indir (65).jpg",
     },
     {
-      title: "Soda Pop (as if it's your last bundan daha iyi ayrıca (niye bu şarkı tek bana çocuklar için yapılıp yetişkinler için geliyor) blackpink ekletme bu şarkıyla alttaki şarkıyı sırf kpop şeyinizi kapatsın diye koyuyorum ayrıca bu şarkıyı sevmesem bile akılda kalıcı [evet akılda kalıcı its catchyle aynı şey sanırım]",
-      artist: "Saja Boys Who The Fuck ARE THIS GUYSSSS THEY ARE NOT EVEN REAL",
+      title: "Soda Pop",
       src: "sarkilar/Soda Pop Official Lyric Video  KPop Demon Hunters  Sony Animation.mp3",
       cover: "kapaklar/indir (65).jpg",
       lyrics: `Hey, hey
@@ -2064,7 +2063,7 @@ You're my soda pop, gotta drink every drop
     },
     {
       title: "Golden",
-      artist: "HuntriX (umarım doğrudur)Who The Fuck ARE THIS GUYSSSS THEY ARE NOT EVEN REAL",
+      artist: "HuntriX",
       src: "sarkilar/“Golden” Official Lyric Video  KPop Demon Hunters  Sony Animation.mp3",
       cover: "kapaklar/indir (65).jpg",
     },
@@ -2075,11 +2074,41 @@ You're my soda pop, gotta drink every drop
       cover: "kapaklar/indir (65).jpg",
     },
     {
-      title: "Your Idol (kpop seven bir sınıf ve küçük bir kız kuzen)",
-      artist: "Saja Boys Who The Fuck ARE THIS GUYSSSS THEY ARE NOT EVEN REAL",
+      title: "Your Idol",
+      artist: "Saja Boys",
       src: "sarkilar/Your Idol  Official Song Clip  KPop Demon Hunters  Sony Animation.mp3",
       cover: "kapaklar/indir (65).jpg",
-    }
+    },
+    {
+      title: "Ева",
+      artist: "Vintage",
+      src: "sarkilar/Ева - Vintage (Lonely Lonely TikTok Version x Dante) (1).mp3",
+      cover: "kapaklar/indir.gif",
+    },
+    {
+      title: "劇場版チェンソーマン レゼ篇オープニングムービー 主題歌米津玄師",
+      artist: "OUTChainsaw Man",
+      src: "sarkilar/劇場版チェンソーマン レゼ篇オープニングムービー 主題歌米津玄師IRIS OUTChainsaw Man  The Movie_ Reze Arc  Opening Movie.mp3",
+      cover: "kapaklar/indir (90).jpg",
+    },
+    {
+      title: "Mezdeke - Ya El Yelil",
+      artist: "-",
+      src: "sarkilar/Mezdeke - Ya El Yelil (Official Audio).mp3",
+      cover: "kapaklar/indir (89).jpg",
+    },
+    {
+      title: "COOOK PARDON (kötü bir şarkı sadece aklıma hangi şarkıyı koymam gerektiği gelmiyor)",
+      artist: "LVBEL C5",
+      src: "sarkilar/LVBEL C5, AKDO - COOOK PARDON.mp3",
+      cover: "kapaklar/indir (36).jpg",
+    },
+    {
+      title: "Damat Halayı(Lütfen bana buraya koymam için bir kağıda şarkı koyun aklıma gelmiyor şarkılar ve son eklediklerim çok kötü)",
+      artist: "Rumeli Ayhan YENİ",
+      src: "sarkilar/Damat Halayı-Rumeli Ayhan YENİ.mp3",
+      cover: "kapaklar/indir (91).jpg",
+    },
   ];
     // Diğer şarkıları da aynı şekilde ekle
 
